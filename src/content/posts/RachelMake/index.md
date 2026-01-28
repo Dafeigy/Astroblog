@@ -1,9 +1,9 @@
 ---
-title: 复刻 Rachel游戏机
+title: 【复刻】 Rachel游戏机
 published: 2025-09-10
 description: 复刻 @-海底撩- 的迷你掌机~
-tags: [ZMK, Keyboard]
-image: "https://pic1.imgdb.cn/item/68d3a332c5157e1a882cad57.png"
+tags: [掌机, TODO]
+image: "https://pic1.imgdb.cn/item/6978c3a89ca240b15f5cf7c7.jpg"
 category: DIY
 draft: false
 ---
@@ -111,11 +111,5 @@ PCB制造厂商需要一个Gerber.zip的制板文件来制作PCB板。你可以�
 
 配色选择真的烦死了！我的白色材料是点维的，特别容易翘边， 黑色用的是大简的PLA哑光，打印效果非常好。其实也可以考虑使用透明壳体的，但是我觉得里面的电路板画的不是特别好看，所以还是不选用透明了。看看最终成品吧！
 
-![](https://pic1.imgdb.cn/item/6978c3a89ca240b15f5cf7c7.jpg)
-
-### 打印参考
-
-## 代码编译
-
-OK，我要说一个事儿：作者给的代码有一些地方是有问题的，我不知道是作者留给读者的思考题还是版本更新但没有同步，总之我把修复的代码给放到我的Github仓库了，你可以直接下载并在VSCode中使用PlatformIO插件进行配置、构建、烧录固件的操作。
+![Final](https://pic1.imgdb.cn/item/697a2b057c9b4dd81b63c7c2.jpg)
 
