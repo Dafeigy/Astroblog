@@ -1,9 +1,14 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+我是NUL4i，一个啥都会一点啥都不精通的社畜。早年间做过一个戴森球计划的产量计算器：
 
-::github{repo="saicaca/fuwari"}
+::github{repo="Dafeigy/DysonSphere_Calculator"} 
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+然后在LLM爆火的初期做了一个简单的应用：
+
+::github{repo="Dafeigy/chartsgpt"} 
+
+当前从事电力相关和人工智能相关的工作，略懂一些5G通信（读研创伤说是）。
+
+目前对前端和Rust开发很感兴趣！最新的作品是一个好看简单的串口监视器：
+
+::github{repo="dafeigy/artemis"}
