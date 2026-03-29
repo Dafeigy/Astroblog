@@ -15,7 +15,7 @@ lang: 'zh-cn'
 
 - [x] E73最小系统
 - [x] E73 Bootloader烧录
-- [ ] 最小系统固件烧录与测试键盘功能验证
+- [x] 最小系统固件烧录与测试键盘功能验证
 - [ ] 正式设计原理图与PCB
 
 ## ZMK固件编写
@@ -49,3 +49,14 @@ lang: 'zh-cn'
 ![E73](https://pic1.imgdb.cn/item/69b97f871eedde6824943307.png)
 
 解决方法也很简单：换个引脚就好。对于那些没有具体指向的，你可以使用`gpiox y`这样的来指定GPIOX.Y，如`gpio1 7`则对应`P1.07`。
+
+## 最小系统固件烧录与测试键盘功能验证
+
+烧录一个Bootloader。主要难点是不开启外部晶振的话，需要在全局设置中添加:
+
+```bash
+# prg.conf
+CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
+```
+
+已验证，没问题。
